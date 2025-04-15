@@ -1,0 +1,13 @@
+.points {
+  padding: 60px 40px;
+  background-color: #fae9e8;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  min-height: 100vh;
+}
+
+.points h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
