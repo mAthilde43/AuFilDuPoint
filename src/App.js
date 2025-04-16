@@ -1,11 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Tissus from "./pages/Tissus/Tissus";
 import Layout from "./components/Layout";
-import Aiguilles from "./pages/Aiguilles/Aiguilles";
-import Points from "./pages/Points/Points";
+import MaterielBase from "./components/MaterielBase/MaterielBase";
+import Techniques from "./pages/Techniques/Techniques";
 
 function App() {
   return (
@@ -16,24 +14,17 @@ function App() {
         </Route>
 
         <Route
-          path="/techniques/tissus"
+          path="/techniques"
           element={<Layout hideHeader={true} hideNavbar={false} />}
         >
-          <Route index element={<Tissus />} />
+          <Route index element={<Techniques />} />
         </Route>
 
         <Route
-          path="/techniques/aiguilles"
+          path="/start/materiel"
           element={<Layout hideHeader={true} hideNavbar={false} />}
         >
-          <Route index element={<Aiguilles />} />
-        </Route>
-
-        <Route
-          path="/techniques/points"
-          element={<Layout hideHeader={true} hideNavbar={false} />}
-        >
-          <Route index element={<Points />} />
+          <Route index element={<MaterielBase />} />
         </Route>
       </Routes>
     </Router>

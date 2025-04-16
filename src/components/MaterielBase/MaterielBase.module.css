@@ -1,0 +1,118 @@
+.materielBase {
+  padding: 80px;
+  background-color: #fae9e8;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  min-height: 100vh;
+}
+
+.materielBase h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.outilsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+.outilCard {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  position: relative;
+  background-color: transparent;
+  padding: 0;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.outilCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.infoBloc {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.infoBloc h2 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+.infoBloc p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.titreRecommandation h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.conteneurRecommandations {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recommandations {
+  background-color: #fff8f4;
+  border-left: 13px solid #f07e7e;
+  padding: 0 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  width: 40%;
+  margin-top: 30px;
+}
+
+.recommandations h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #c64a4a;
+}
+
+.recommandations ul {
+  list-style: disc inside;
+  padding-left: 0.5rem;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.recommandations li + li {
+  margin-top: 0.5rem;
+}
+
+.recommandations p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  line-height: 1.6;
+}

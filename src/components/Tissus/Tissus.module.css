@@ -1,0 +1,58 @@
+.tissus {
+  padding: 20px 80px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fae9e8;
+  min-height: 100vh;
+}
+
+.tissus h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.tissuBloc {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 3rem;
+}
+
+.tissuBloc.reverse {
+  flex-direction: row-reverse;
+}
+
+.images {
+  flex: 1;
+  max-width: 50%;
+}
+
+.images img {
+  width: 450px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.description {
+  flex: 1;
+  max-width: 38%;
+  padding: 1rem;
+  text-align: left;
+}
+
+.description h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}

@@ -24,20 +24,10 @@ const Navbar = () => {
           </ul>
         </li>
 
-        <li className={classes.dropdown}>
+        <li>
           <Link to="/techniques">Techniques</Link>
-          <ul className={classes.dropdownMenu}>
-            <li>
-              <Link to="/techniques/points">Types de point</Link>
-            </li>
-            <li>
-              <Link to="/techniques/aiguilles">Les aiguilles</Link>
-            </li>
-            <li>
-              <Link to="/techniques/tissus">Type de tissus</Link>
-            </li>
-          </ul>
         </li>
+
         <li>
           <Link to="/patrons">Patrons</Link>
         </li>
