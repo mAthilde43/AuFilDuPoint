@@ -9,7 +9,7 @@ const Navbar = () => {
         <li>
           <Link to="/">Accueil</Link>
         </li>
-        <li className={classes.dropdown}>
+        {/* <li className={classes.dropdown}>
           <Link to="/start">Débuter en couture</Link>
           <ul className={classes.dropdownMenu}>
             <li>
@@ -22,8 +22,11 @@ const Navbar = () => {
               <Link to="/start/exercices">Exercices simples</Link>
             </li>
           </ul>
-        </li>
+        </li> */}
 
+        <li>
+          <Link to="/debuterEnCouture">Débuter en couture</Link>
+        </li>
         <li>
           <Link to="/techniques">Techniques</Link>
         </li>

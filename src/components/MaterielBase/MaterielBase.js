@@ -84,7 +84,7 @@ const outils = [
 
 const MaterielBase = () => {
   return (
-    <div className={classes.materielBase}>
+    <div className={classes.materielBase} id="materielbase">
       <h1>Le matériel de base pour débuter en couture</h1>
 
       <div className={classes.outilsContainer}>
