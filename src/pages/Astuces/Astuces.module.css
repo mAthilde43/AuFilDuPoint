@@ -1,0 +1,110 @@
+.astuces {
+  padding: 80px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fae9e8;
+  margin: 0 auto;
+}
+
+.astuces h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+.grid {
+  max-width: 840px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  margin: 3px;
+  font-size: 19px;
+  color: #443333;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.small {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.medium {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.pastelBlue {
+  background-color: #dceeff;
+}
+
+.pastelGreen {
+  background-color: #e0f8e0;
+}
+
+.pastelPink {
+  background-color: #fde2e4;
+}
+
+.pastelYellow {
+  background-color: #fff8d6;
+}
+
+.pastelPurple {
+  background-color: #f3e5f5;
+}
+
+.pastelOrange {
+  background-color: #ffe5b4;
+}
+
+.pastelRed {
+  background-color: #ffccd5;
+}
+
+.pastelTeal {
+  background-color: #ccf2f4;
+}
+
+.pastelLavender {
+  background-color: #e6e6fa;
+}
+
+.pastelMint {
+  background-color: #d0f0c0;
+}
+
+.pastelPeach {
+  background-color: #ffe0b2;
+}

@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Techniques from "./pages/Techniques/Techniques";
 
 import DebuterCouture from "./pages/DebuterCouture/DebuterCouture";
+import Astuces from "./pages/Astuces/Astuces";
 
 function App() {
   return (
@@ -19,12 +20,19 @@ function App() {
         >
           <Route index element={<DebuterCouture />} />
         </Route>
-        debuterEnCouture
+
         <Route
           path="/techniques"
           element={<Layout hideHeader={true} hideNavbar={false} />}
         >
           <Route index element={<Techniques />} />
+        </Route>
+
+        <Route
+          path="/astuces"
+          element={<Layout hideHeader={true} hideNavbar={false} />}
+        >
+          <Route index element={<Astuces />} />
         </Route>
       </Routes>
     </Router>
