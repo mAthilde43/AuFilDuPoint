@@ -22,19 +22,87 @@
 }
 
 .title h1 {
-  font-size: 40px;
+  font-size: clamp(30px, 8vw, 50px);
   margin-bottom: 20px;
   max-width: 80%;
 }
 
 .title h2 {
-  font-size: 30px;
+  font-size: clamp(20px, 5vw, 35px);
   margin-bottom: 20px;
   max-width: 80%;
 }
 
 .title h3 {
-  font-size: 20px;
+  font-size: clamp(16px, 4vw, 25px);
   font-weight: normal;
   max-width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 30px 5%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .title h1 {
+    font-size: clamp(24px, 10vw, 40px);
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+
+  .title h2 {
+    font-size: clamp(18px, 6vw, 30px);
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+
+  .title h3 {
+    font-size: clamp(14px, 5vw, 22px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 30px 5%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .title h1 {
+    font-size: clamp(24px, 10vw, 40px);
+    margin-bottom: 10px;
+    width: 320px;
+  }
+
+  .title h2 {
+    font-size: clamp(18px, 6vw, 30px);
+    margin-bottom: 10px;
+    width: 320px;
+  }
+
+  .title h3 {
+    font-size: clamp(14px, 5vw, 22px);
+    width: 320px;
+  }
 }

@@ -1,3 +1,4 @@
+/* Navbar général */
 .navbar {
   position: absolute;
   top: 20px;
@@ -12,22 +13,20 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: space-between;
+  max-width: clamp(320px, 80%, 1200px);
+  margin: -30px auto;
   width: 100%;
-  padding: 0 40px;
+  padding: clamp(10px, 4vw, 17px);
 }
 
 .logoContent {
-  position: absolute;
-  left: 40px;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  height: 90px;
+  height: clamp(50px, 13vw, 90px);
 }
 
 .mainMenu {
@@ -35,11 +34,12 @@
   gap: 30px;
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   flex-grow: 1;
   justify-content: center;
 }
 
+/* Liens */
 .navbar li {
   list-style: none;
 }
@@ -54,4 +54,46 @@
 
 .navbar a:hover {
   color: #50291c;
+}
+
+/* Menu mobile - Masquer le menu sur mobile par défaut */
+.mainMenu {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .mainMenu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .mainMenu.mobileOpen {
+    display: flex;
+  }
+
+  .hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+  }
+
+  .hamburgerLine {
+    height: 3px;
+    background-color: #803500;
+    border-radius: 3px;
+  }
+
+  .hamburgerMenu:hover .hamburgerLine {
+    background-color: #50291c;
+  }
 }

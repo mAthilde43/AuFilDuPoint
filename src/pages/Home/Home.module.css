@@ -1,17 +1,11 @@
 .home {
-  padding: 5px 80px;
+  padding: 5px clamp(30px, 10vw, 80px);
   text-align: center;
   font-family: sans-serif;
   background-color: #f9c5c0;
   margin: 0 auto;
   min-height: 100vh;
   color: #803500;
-}
-
-.title {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 .whySection {
@@ -22,7 +16,7 @@
   text-align: left;
   display: flex;
   justify-content: center;
-  width: 700px;
+  width: clamp(300px, 59vw, 700px);
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,11 +37,11 @@
 
 .whyText h2 {
   margin-bottom: 5px;
-  font-size: 26px;
+  font-size: clamp(20px, 5vw, 26px);
 }
 
 .whyText p {
-  font-size: 18px;
+  font-size: clamp(14px, 4vw, 18px);
   line-height: 1.5;
 }
 
@@ -106,12 +100,12 @@
 
 .card h2 {
   margin: 1rem 0 0.5rem;
-  font-size: 27px;
+  font-size: clamp(20px, 5vw, 27px);
 }
 
 .card p {
   padding: 0 1rem 1rem;
-  font-size: 20px;
+  font-size: clamp(15px, 4vw, 20px);
 }
 
 .button {
@@ -121,4 +115,25 @@
   color: white;
   border-radius: 5px;
   text-decoration: none;
+  font-size: clamp(15px, 4vw, 20px);
+}
+
+@media screen and (max-width: 768px) {
+  .whyContent {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .whyContent img {
+    margin: 0;
+    width: 80px;
+  }
+
+  .whyText {
+    text-align: center;
+  }
+  .card {
+    height: 250px;
+  }
 }
