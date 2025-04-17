@@ -1,8 +1,8 @@
 .aiguilles {
   padding: 20px 80px;
-  background-color: #fae9e8;
+  background-color: #e9c3ad;
   font-family: "Roboto", sans-serif;
-  color: #2e2e2e;
+  color: #803500;
   min-height: 100vh;
 }
 
@@ -17,14 +17,13 @@
   justify-content: center;
   gap: 40px;
   padding: 20px;
-  background-color: #ffecec;
   border-radius: 16px;
   box-shadow: inset 0 0 10px rgba(255, 192, 203, 0.2);
 }
 
 .aiguilleItem {
   background-color: #fff;
-  border: 1px solid #6d4c41;
+  border: 1px solid #803500;
   border-radius: 60px 0 60px 0;
   box-shadow: 0 4px 10px rgba(244, 182, 182, 0.1);
   padding: 10px;
@@ -53,14 +52,14 @@
 .nom {
   font-weight: 600;
   font-size: 17px;
-  color: #6d4c41;
+  color: #803500;
   margin-bottom: 0;
   text-align: center;
 }
 
 .descriptionRecap {
   font-size: 14px;
-  color: #5a5a5a;
+  color: #803500;
   text-align: center;
   line-height: 1.4;
   padding: 0 13px;

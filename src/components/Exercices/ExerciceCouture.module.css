@@ -1,8 +1,8 @@
 .exerciceCouture {
   padding: 20px 80px;
-  background-color: #fae9e8;
+  background-color: #e9c3ad;
   font-family: "Roboto", sans-serif;
-  color: #2e2e2e;
+  color: #803500;
   min-height: 100vh;
 }
 .exerciceCouture h1 {
@@ -31,6 +31,7 @@
   width: 700px;
   padding: 20px;
   background-color: #ffe3e0;
+  border-radius: 12px;
 }
 
 .exerciceText h3 {
@@ -74,7 +75,7 @@
 
 .boutonPDF {
   display: inline-block;
-  color: black;
+  color: #803500;
   text-decoration: none;
   margin-top: 10px;
   transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;

@@ -2,8 +2,9 @@
   padding: 80px;
   text-align: center;
   font-family: sans-serif;
-  background-color: #fae9e8;
+  background-color: #e9c3ad;
   margin: 0 auto;
+  color: #803500;
 }
 
 .astuces h1 {
@@ -33,13 +34,13 @@
 }
 
 .card:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .card h2 {
   margin: 3px;
   font-size: 19px;
-  color: #443333;
+  color: #803500;
 }
 
 .card ul {
@@ -52,7 +53,7 @@
 .card li {
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
-  color: #555;
+  color: #803500;
 }
 
 .small {

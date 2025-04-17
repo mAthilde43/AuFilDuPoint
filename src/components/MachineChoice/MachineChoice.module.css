@@ -1,8 +1,8 @@
 .choseMachine {
   padding: 20px 80px;
-  background-color: #fae9e8;
+  background-color: #e9c3ad;
   font-family: "Roboto", sans-serif;
-  color: #2e2e2e;
+  color: #803500;
   min-height: 100vh;
 }
 
@@ -90,7 +90,7 @@
 
 .table th {
   text-align: left;
-  padding: 15px;
+  padding: 16px;
   color: #b93c3c;
   font-size: 18px;
   border-bottom: 2px solid #b93c3c;

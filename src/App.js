@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Layout from "./components/Layout";
 import Techniques from "./pages/Techniques/Techniques";
-
 import DebuterCouture from "./pages/DebuterCouture/DebuterCouture";
 import Astuces from "./pages/Astuces/Astuces";
+import Patrons from "./pages/Patrons/Patrons";
 
 function App() {
   return (
@@ -33,6 +33,13 @@ function App() {
           element={<Layout hideHeader={true} hideNavbar={false} />}
         >
           <Route index element={<Astuces />} />
+        </Route>
+
+        <Route
+          path="/patrons"
+          element={<Layout hideHeader={true} hideNavbar={false} />}
+        >
+          <Route index element={<Patrons />} />
         </Route>
       </Routes>
     </Router>

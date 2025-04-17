@@ -6,7 +6,7 @@ html {
   padding-top: 100px;
   text-align: center;
   font-family: sans-serif;
-  background-color: #fae9e8;
+  background-color: #e9c3ad;
   display: flex;
   justify-content: center;
 }
@@ -15,16 +15,16 @@ html {
   display: flex;
   gap: 30px;
   list-style: none;
-  padding: 7px 25px;
-  border-radius: 50px;
   margin: 0;
-  background-color: #ffffff;
 }
 
 .navbarTechniques a {
   text-decoration: none;
-  color: #835445;
+  color: #803500;
   font-size: 18px;
   font-weight: 500;
   transition: color 0.3s ease;
+  border-radius: 50px;
+  background-color: #ffffff;
+  padding: 7px 25px;
 }

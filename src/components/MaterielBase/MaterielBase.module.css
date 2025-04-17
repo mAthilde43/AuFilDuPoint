@@ -1,8 +1,8 @@
 .materielBase {
   padding: 20px 80px;
-  background-color: #fae9e8;
+  background-color: #e9c3ad;
   font-family: "Roboto", sans-serif;
-  color: #2e2e2e;
+  color: #803500;
   min-height: 100vh;
 }
 
@@ -59,12 +59,12 @@
 .infoBloc h2 {
   font-size: 1.3rem;
   margin: 0.5rem 0;
-  color: #444;
+  color: #803500;
 }
 
 .infoBloc p {
   font-size: 0.95rem;
-  color: #555;
+  color: #803500;
   line-height: 1.4;
   margin: 0;
 }
@@ -101,7 +101,7 @@
 .recommandations ul {
   list-style: disc inside;
   padding-left: 0.5rem;
-  color: #444;
+  color: #803500;
   font-size: 1rem;
   line-height: 1.7;
 }
@@ -111,7 +111,7 @@
 }
 
 .recommandations p {
-  color: #555;
+  color: #803500;
   font-size: 0.95rem;
   margin-top: 1.5rem;
   line-height: 1.6;
