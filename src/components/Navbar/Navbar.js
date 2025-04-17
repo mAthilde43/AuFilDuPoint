@@ -1,7 +1,8 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
-import Logo from "../../images/logo-png.png";
+import Logo from "../../images/logo-transparent-png.png";
 
 const Navbar = () => {
   return (
@@ -30,6 +31,9 @@ const Navbar = () => {
 
           <li>
             <Link to="/astuces">Astuces</Link>
+          </li>
+          <li>
+            <Link to="/galerie">Galerie</Link>
           </li>
         </ul>
       </div>

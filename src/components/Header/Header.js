@@ -1,20 +1,15 @@
 import React from "react";
 import classes from "./Header.module.css";
-import headerImage from "../../images/header-image.png";
 
 const Header = () => {
   return (
     <div className={classes.header}>
-      <div className={classes.image}>
-        <img src={headerImage}></img>
-      </div>
-
       <div className={classes.title}>
-        <h1>Bienvenue sur Au Fil Du Point</h1>
+        <h1>Au Fil du Point</h1>
+        <h2>Bienvenue dans l’univers de la couture pour tous</h2>
         <h3>
-          Découvrez un univers couture pensé pour tous, des premiers points aux
-          projets les plus créatifs. Apprenez, inspirez-vous, et cousez à votre
-          rythme, au fil des envies.
+          Des conseils, techniques et patrons pour coudre avec plaisir, que tu
+          sois débutant(e) ou passionné(e)
         </h3>
       </div>
     </div>
