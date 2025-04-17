@@ -5,6 +5,7 @@
   background-color: #faccc6;
   margin: 0 auto;
   color: #803500;
+  min-height: 100vh;
 }
 
 .astuces h1 {

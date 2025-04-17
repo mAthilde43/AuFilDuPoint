@@ -1,0 +1,29 @@
+.galerie {
+  padding: 80px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #faccc6;
+  margin: 0 auto;
+  color: #803500;
+  min-height: 100vh;
+}
+
+.galerie h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.imageContainer {
+  column-count: 3;
+  column-gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.galerieImage {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: block;
+}

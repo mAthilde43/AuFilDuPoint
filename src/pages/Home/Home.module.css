@@ -32,6 +32,7 @@
   align-items: center;
   gap: 10px;
   padding: 0 20px;
+  text-align: center;
 }
 
 .whyContent img {
@@ -41,19 +42,19 @@
 }
 
 .whyText h2 {
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+  margin-bottom: 5px;
+  font-size: 26px;
 }
 
 .whyText p {
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.5;
 }
 
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 30px;
   justify-content: center;
 }
 

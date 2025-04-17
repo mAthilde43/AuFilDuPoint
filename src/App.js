@@ -6,6 +6,7 @@ import Techniques from "./pages/Techniques/Techniques";
 import DebuterCouture from "./pages/DebuterCouture/DebuterCouture";
 import Astuces from "./pages/Astuces/Astuces";
 import Patrons from "./pages/Patrons/Patrons";
+import Galerie from "./pages/Galerie/Galerie";
 
 function App() {
   return (
@@ -40,6 +41,13 @@ function App() {
           element={<Layout hideHeader={true} hideNavbar={false} />}
         >
           <Route index element={<Patrons />} />
+        </Route>
+
+        <Route
+          path="/galerie"
+          element={<Layout hideHeader={true} hideNavbar={false} />}
+        >
+          <Route index element={<Galerie />} />
         </Route>
       </Routes>
     </Router>
